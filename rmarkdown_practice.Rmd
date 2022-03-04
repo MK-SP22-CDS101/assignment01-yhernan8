@@ -27,7 +27,7 @@ urlcolor: blue
 
 <!-- Write your Markdown below this line -->
 
-# Section 1
+# Section
 **Section K02**
 
 
@@ -38,7 +38,7 @@ By the end of the course, students will be able to:
 * Use [Github](https://github.com/) for creating a reproductible research document.
 
 
---- My Github username is: *yhernan8*.
+> --My Github username is: *yhernan8*.
 
 * Obtain, clean, transform, and visualize a dataset using the R programming language.
 * Interpret and predict dataset trends using statistical inference and models.
@@ -46,14 +46,24 @@ By the end of the course, students will be able to:
 
 
 # Including Code
-## 3.1 Running R code in a code chunk
+## Running R code in a code chunk
+
+
 
 ```{r}
 x <- 2+2
 x + 3
 ```
 
+
 The output of first line of code is not printed out because it is assigned to a variable instead.
 
 
 The second line of output is printed out instead, but this means that the calculated value has not been saved for future use.
+
+
+## **Displaying Graphs**
+
+
+```{r}
+ggplot2::qplot(data = iris, x = Sepal.Length, y = Sepal.Width)
