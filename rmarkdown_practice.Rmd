@@ -27,6 +27,17 @@ urlcolor: blue
 
 <!-- Write your Markdown below this line -->
 
-Hello World!
+# Section 1
+Section 001
+
+
+# Section 2
+By the end of the course, students will be able to:
+
+
+* Use Github for creating a reproductible research document.
+
+
+--- My Github username is: *yhernan8*
 
 
